@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-color: wheat;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+select {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: lightskyblue;
+  color: black;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: aqua;
+}
